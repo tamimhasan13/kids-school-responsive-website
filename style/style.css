@@ -19,6 +19,7 @@ marquee{
     padding: 10px;
     color: #01ACFD;
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 /* share styel */
 /* color */
@@ -467,7 +468,7 @@ marquee{
         flex-direction: column;
         justify-content: center;
         gap: 15px;
-        /* margin: 20px 16px; */
+        margin: 20px 16px;
     }
     .card{
         margin: 20px auto;
