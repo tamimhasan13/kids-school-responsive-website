@@ -251,3 +251,105 @@ marquee{
 
 }
 /* curriculum stylr end */
+
+/* our stories style start */
+.our-stories{
+    background-image:url(/assets/bg.png), linear-gradient(360deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+
+}
+.our-stories-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.our-stories-card-items{
+    display: grid;
+    grid-template-columns: 540px 290px 290px;
+    grid-template-rows: repeat(2, 330px);
+    gap: 19px;
+}
+.our-stories-item{
+    grid-row: 1/-1;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.our-stories-img img{
+    width: 100%;
+}
+.story1-btn{
+    background-color: #3CD8E8;
+    /* margin-bottom: 33px; */
+}
+.our-story-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: #000000;
+    margin: 0 99px 0px 38px;
+}
+.our-story-description{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666666;
+    line-height: 1.7rem;
+    margin: 47px 68px 34px 38px;
+}
+.story-card1{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+.story-img{
+
+}
+.story-img img{
+    width: 100%;
+}
+.story2-btn{
+    background-color: #95B226;
+    
+}
+.story3-btn{
+    background-color: #5D58F0;
+    
+}
+.story4-btn{
+    background-color: #95B226;
+    
+}
+.story5-btn{
+    background-color: #95B226;
+    
+}
+.story-description{
+    margin: 19px 38px 28px 38px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.7rem;
+}
+.button1{
+    text-align: center;
+}
+.view-btn{
+    padding: 10px 61px;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    
+}
+
+/* our stories style end*/
