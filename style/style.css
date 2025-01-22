@@ -157,3 +157,97 @@ marquee{
     /* width: 100%; */
 }
 /* banner style end */
+
+/* curriculum stylr start */
+.curriculum{
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    
+}
+.curriculum-title{
+    padding-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000000;
+}
+.curriculum-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 367px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.card-1{
+    background: linear-gradient(180deg, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+}
+.card-2{
+    background: linear-gradient(180deg, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
+}
+.card-3{
+    background: linear-gradient(180deg,rgba(238, 225, 255, 1) , rgba(255, 255, 255, 0));
+}
+.card-img{
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+/* .card-img img{
+    width: 100%;
+} */
+ .card-title{
+    font-size: 1.5rem;
+    font-weight: 700px;
+    color: #202020;
+    margin-bottom: 33px;
+ }
+ .card-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+    line-height: 1.75rem;
+    margin: 0 0px 32px 0px;
+ }
+ .primary-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    margin-bottom: 58px;
+    border: none;
+ }
+ .card-btn1{
+    color: #64C8FF;
+ }
+ .card-btn2{
+    color: #F0AA00;
+ }
+ .card-btn3{
+    color: #8700FF;
+ }
+.icon-part{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icon{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+/* curriculum stylr end */
