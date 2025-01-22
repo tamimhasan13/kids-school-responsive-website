@@ -421,3 +421,88 @@ marquee{
     gap: 10px;
 }
 /* footer style end */
+
+/* responsive style */
+
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .nav-items{
+        gap: 10px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .navbar{
+        gap: 10px;
+    }
+    .brand-name{
+        display: none;
+    }
+    .nav-items{
+        display: none;
+    }
+    .hamburgar{
+        display: block;
+    }
+    .button{
+        display: none;
+    }
+    .hr{
+        display: block;
+    }
+    .navbar, .banner{
+        text-align: center;
+        margin: 15px;
+    }
+    
+    .empowering-part{
+        margin: 15px;
+    }
+    .curriculum-title{
+        margin-bottom: 0;
+    }
+    .curriculum-card{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px 16px;
+    }
+    .card{
+        margin-bottom: 0;
+    }
+
+    .curriculum-card{
+
+    }
+    .icon-part{
+        display: none;
+    }
+    .our-stories-card-items{
+       grid-template-columns: 1fr 1fr;
+      margin: 0 16px;
+    }
+    .our-stories-item{
+        display: none;
+    }
+    .our-story-btn{
+        padding: 5px 11px;
+        border-radius: 28px;
+        font-size: 0.5rem;
+        font-weight: 500;
+        position: relative;
+        top: -16px;
+        margin-left: 22px;
+       
+    }
+    .footer-content{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .about-school,
+    .keep-in-tech{
+        margin-top: 32px;
+    }
+
+}
