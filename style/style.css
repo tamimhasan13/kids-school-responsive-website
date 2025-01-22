@@ -15,7 +15,7 @@ header,
     margin: 0 auto;
 }
 marquee{
-    border: 1px solid orangered;
+    /* border: 1px solid orangered; */
     padding: 10px;
     color: #01ACFD;
     font-size: 2rem;
