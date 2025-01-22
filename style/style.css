@@ -187,19 +187,20 @@ marquee{
     border-radius: 18px;
     text-align: center;
     margin-bottom: 80px;
+    overflow: hidden;
 }
-.card-1{
+.img-bg-1{
     background: linear-gradient(180deg, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
 }
-.card-2{
+.img-bg-2{
     background: linear-gradient(180deg, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
 }
-.card-3{
+.img-bg-3{
     background: linear-gradient(180deg,rgba(238, 225, 255, 1) , rgba(255, 255, 255, 0));
 }
 .card-img{
-    margin-top: 52px;
-    margin-bottom: 32px;
+    padding-top: 52px;
+    padding-bottom: 32px;
 }
 /* .card-img img{
     width: 100%;
