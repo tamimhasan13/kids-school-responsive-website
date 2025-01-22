@@ -467,10 +467,10 @@ marquee{
         flex-direction: column;
         justify-content: center;
         gap: 15px;
-        margin: 20px 16px;
+        /* margin: 20px 16px; */
     }
     .card{
-        margin-bottom: 0;
+        margin: 20px auto;
     }
 
     .curriculum-card{
