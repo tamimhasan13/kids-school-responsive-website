@@ -353,3 +353,71 @@ marquee{
 }
 
 /* our stories style end*/
+
+/* footer style start */
+
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #01ACFD;
+    
+}
+.footer-content{
+    display: flex;
+    padding: 123px 0px 174px 0px;
+}
+.kids-education{
+    margin-right: 172px;
+}
+.kids-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 82px;
+}
+
+.kids-img img{
+    width: 100%;
+}
+.kids-title{
+    color: #FFFFFF;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.kids-description{
+    margin-top: 35px;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.about-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.about-school{
+    margin-right: 143px;
+}
+.about-nav-items{
+
+}
+.about-item{
+    list-style: none;
+    margin-top: 20px;
+}
+.about-nav-link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.keep-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.keep-img{
+    display: flex;
+    gap: 10px;
+}
+/* footer style end */
