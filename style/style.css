@@ -115,3 +115,45 @@ marquee{
     display: none;
 }
 /* navbar style end */
+
+/* banner style start */
+.banner{
+    margin: 0 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+.empowering-part{
+    max-width: 640px;
+    margin-right: 50px;
+
+}
+.empowering-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 24px;
+}
+.empowring-description{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+
+}
+.btn2{
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.banner-img{
+    
+}
+.banner-img img{
+    /* width: 100%; */
+}
+/* banner style end */
